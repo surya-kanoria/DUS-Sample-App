@@ -1,4 +1,0 @@
-#Tue Jan 09 12:15:44 IST 2018
-base.0=/Users/surya.kanoria/Documents/Flipkart/Repositories/dus-demo/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/surya.kanoria/Documents/Flipkart/Repositories/dus-demo/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

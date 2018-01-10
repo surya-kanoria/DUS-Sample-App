@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../DUS/android/dus/dus.iml" filepath="$PROJECT_DIR$/../../DUS/android/dus/dus.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../DUS/dus/dus.iml" filepath="$PROJECT_DIR$/../../DUS/dus/dus.iml" />
       <module fileurl="file://$PROJECT_DIR$/dusdemo.iml" filepath="$PROJECT_DIR$/dusdemo.iml" />
     </modules>

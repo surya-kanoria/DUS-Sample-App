@@ -2,6 +2,7 @@ package com.dusdemo;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
+import com.flipkart.dus.DusReactApplicationDelegate;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,11 +12,11 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "travelMate";
+        return "dusdemo";
     }
 
     @Override
     protected ReactActivityDelegate createReactActivityDelegate() {
-        return new DusReactApplicationDelegate(this, getMainComponentName(), "example", getBaseContext());
+        return new DusReactApplicationDelegate(this, getMainComponentName(), "example");
     }
 }

@@ -12,6 +12,7 @@ import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.flipkart.dus.DusApplication;
 import com.flipkart.dus.DusDependencyResolver;
+import com.flipkart.dus.DusReactNativeHost;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,7 +20,7 @@ import java.util.List;
 public class MainApplication extends Application implements ReactApplication, DusApplication {
     private String mJSBundle = "";
 
-    private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    private final DusReactNativeHost mReactNativeHost = new DusReactNativeHost(this) {
         @Override
         public boolean getUseDeveloperSupport() {
             return false;
@@ -30,11 +31,6 @@ public class MainApplication extends Application implements ReactApplication, Du
             return Arrays.<ReactPackage>asList(
                     new MainReactPackage()
             );
-        }
-
-        @Override
-        protected String getJSBundleFile() {
-            return mJSBundle;
         }
     };
 
@@ -62,5 +58,10 @@ public class MainApplication extends Application implements ReactApplication, Du
                 .setPackagedDbName("")
                 .setPackagedDbVersion(0);
         return dependencyResolver;
+    }
+
+    @Override
+    public DusReactNativeHost getDusReactNativeHost() {
+        return mReactNativeHost;
     }
 }

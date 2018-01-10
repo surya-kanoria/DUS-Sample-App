@@ -2,4 +2,4 @@ rootProject.name = 'dusdemo'
 
 include ':app', ':dus'
 project(':dus').projectDir = new File(
-        rootProject.projectDir, '../../DUS/dus')
+        rootProject.projectDir, '../../DUS/android/dus')
