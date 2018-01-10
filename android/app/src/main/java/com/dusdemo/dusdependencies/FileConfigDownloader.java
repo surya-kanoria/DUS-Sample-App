@@ -31,7 +31,8 @@ public class FileConfigDownloader implements FileConfigRequestInterface {
             String responseString = response.body().string();
             FileConfigResponseModel responseObject = gson.fromJson(responseString, FileConfigResponseModel.class);
             FileConfig fileConfig = new FileConfig();
-            fileConfig.setCurrentUpdateGraph(responseObject.updateGraph);
+            fileConfig.setCurrentUpdateGraph(responseObject.updateGraph.currentUpdateGraph);
+            fileConfig.setCurrentUpdateGraphVersion(responseObject.updateGraph.currentUpdateGraphVersion);
             responseCallback.onSuccess(fileConfig, "0.0.0.0");
         } catch (IOException e) {
             e.printStackTrace();

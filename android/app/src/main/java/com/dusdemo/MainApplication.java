@@ -18,7 +18,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication, DusApplication {
-    private String mJSBundle = "";
 
     private final DusReactNativeHost mReactNativeHost = new DusReactNativeHost(this) {
         @Override
@@ -37,10 +36,6 @@ public class MainApplication extends Application implements ReactApplication, Du
     @Override
     public ReactNativeHost getReactNativeHost() {
         return mReactNativeHost;
-    }
-
-    public void setJSBundle(String jsBundle) {
-        mJSBundle = jsBundle;
     }
 
     @Override

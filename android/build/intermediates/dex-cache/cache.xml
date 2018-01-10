@@ -39,30 +39,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_d3b8676cbb879b11a5ac54971c541b44708fa386.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_9a281d291c4ff46962f4ccea3436dd66f099c235.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_893302a817ee85eeac9bbc7095852d618b327f62.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,15 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_d17cd34b159c3db770ab5e4bab0468c74f9a2c12.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -111,57 +84,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_820796e62615a95a1794971dffc33ad8ea885bc7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_4aff667ecd3e3c92f01e6a173dab82ad25f1d82e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/gson-2.8.0_3b38f6bed3c57f43e02cc48b5c247eec6dd7c1f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.1/84b4b7d1c4a238e7899972b7446c250691e65f1f/okhttp-3.9.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="84b4b7d1c4a238e7899972b7446c250691e65f1f">
         <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/okhttp-3.9.1_b73ff225d94bb77c295b7a7270fc17b6fd29e53d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e28594d2a1001f46f2f5395ac7f6c32d8f3ba8f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.flipkart.dus/dus/1.0.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3ed3365b13c099e7839a96955a8ad16941af4353">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.flipkart.dus-dus-1.0.0.1_2a97a82e03599c7dbaad32aefa11c558ce6d1040.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,15 +138,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.47.1/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_1a7db7e2d32c013c562af08ef39a8d19cc477c9a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar"
         jumboMode="false"
         optimize="true"
@@ -234,6 +153,87 @@
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_d74742b18af124420d443ce33a1a94ac93967708.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_d3b8676cbb879b11a5ac54971c541b44708fa386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_893302a817ee85eeac9bbc7095852d618b327f62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_d17cd34b159c3db770ab5e4bab0468c74f9a2c12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/dusdemo/dus/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5d75261e9f3553b967970cecde0d565ca0351ece">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/dusdemo-dus-unspecified_3f3d62683c9ce63e013cf39236cb10a2f9e9bc39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_820796e62615a95a1794971dffc33ad8ea885bc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_4aff667ecd3e3c92f01e6a173dab82ad25f1d82e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/gson-2.8.0_3b38f6bed3c57f43e02cc48b5c247eec6dd7c1f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e28594d2a1001f46f2f5395ac7f6c32d8f3ba8f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.47.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/surya.kanoria/Documents/Flipkart/Repositories/DUS-Sample-App/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_1a7db7e2d32c013c562af08ef39a8d19cc477c9a.jar" />
     </item>
     <item
         is-multidex="false"
