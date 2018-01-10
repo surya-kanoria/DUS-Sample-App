@@ -1,6 +1,8 @@
 package com.dusdemo;
 
 import android.app.Application;
+import android.database.Cursor;
+import android.os.AsyncTask;
 
 import com.dusdemo.dusdependencies.ComponentDownloader;
 import com.dusdemo.dusdependencies.DusLoggerResolver;
@@ -10,6 +12,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.flipkart.dus.DUSContracts;
 import com.flipkart.dus.DusApplication;
 import com.flipkart.dus.DusDependencyResolver;
 import com.flipkart.dus.DusReactNativeHost;
@@ -42,6 +45,15 @@ public class MainApplication extends Application implements ReactApplication, Du
     public void onCreate() {
         super.onCreate();
         SoLoader.init(this, /* native exopackage */ false);
+        AsyncTask.THREAD_POOL_EXECUTOR.execute(new Runnable() {
+            @Override
+            public void run() {
+                Cursor cursor = getApplicationContext().getContentResolver().query(DUSContracts.buildFetchUpdateGraphUri(), null, null, null, null);
+                if (cursor != null) {
+                    cursor.close();
+                }
+            }
+        });
     }
 
     @Override
