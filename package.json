@@ -8,14 +8,12 @@
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
     "setup": "npm install -g dus-deployer",
-    "serverStart": "node server.js",
-    "release": "npm run deploy1 && node deployUpdatePatch.js",
-    "deploy1": "dus-deployer --config DeploymentConfig.json --platform android --react16 true --updateGraphVersion 0.0.0.0 --outputPath output"
-  },
+    "server": "node server.js"
+    },
   "dependencies": {
-    "dus-deployer": "^1.47.2",
+    "dus-deployer": "1.47.8",
     "react": "16.0.0-alpha.12",
-    "react-native": "0.47.1"
+    "react-native": "0.47.2"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
