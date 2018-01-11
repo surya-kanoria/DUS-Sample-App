@@ -11,7 +11,7 @@
     "server": "node server.js"
     },
   "dependencies": {
-    "dus-deployer": "^1.47.6",
+    "dus-deployer": "1.47.8",
     "react": "16.0.0-alpha.12",
     "react-native": "0.47.2"
   },

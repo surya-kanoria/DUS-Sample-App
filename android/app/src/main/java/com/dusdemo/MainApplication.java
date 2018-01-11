@@ -45,7 +45,7 @@ public class MainApplication extends Application implements ReactApplication, Du
     public void onCreate() {
         super.onCreate();
         SoLoader.init(this, /* native exopackage */ false);
-        AsyncTask.THREAD_POOL_EXECUTOR.execute(new Runnable() {
+        AsyncTask.SERIAL_EXECUTOR.execute(new Runnable() {
             @Override
             public void run() {
                 Cursor cursor = getApplicationContext().getContentResolver().query(DUSContracts.buildFetchUpdateGraphUri(), null, null, null, null);
