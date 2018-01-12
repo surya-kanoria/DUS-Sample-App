@@ -2,7 +2,7 @@ This is a sample project that uses [DUS](https://github.com/Flipkart/DUS) by Fli
 
 To run this project, perform the following steps
 
-1. Install DUS on your machine: ```npm install -g dus-deployer@1.47 ```
+1. Install DUS on your machine: ```npm install -g dus-deployer@1.49 ```
 2. Start the mock server: ```npm run server ```
 3. Deploy the first bundle using DeploymentConfig which deployes
 the master branch of this repository: ```sh deploy1.sh ```
